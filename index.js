@@ -1,5 +1,6 @@
 var Map = require(__dirname + '/lib/Map'),
     GeoJson = require(__dirname + '/datasources/GeoJson'),
+    DynamicGeoJson = require(__dirname + '/datasources/dynamicgeojson'),
     Shp = require(__dirname + '/datasources/Shp'),
     projector = require(__dirname + '/lib/projector'),
     routes = require(__dirname + '/lib/routes'),
@@ -15,7 +16,8 @@ module.exports = {
    */
   datasources: {
     GeoJson: GeoJson,
-    Shp: Shp
+    Shp: Shp,
+    DynamicGeoJson: DynamicGeoJson
   },
   /**
    * Transform between projections
