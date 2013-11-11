@@ -1,6 +1,6 @@
 {
-  "name": "nodetiles-core",
-  "version": "0.0.2",
+  "name": "nodetiles-core-cache",
+  "version": "0.0.1",
   "description": "Joyful map rendering with Node.js.",
   "contributors": [ 
     {
@@ -14,13 +14,17 @@
     {
       "name": "Alex Yule",
       "email": "alexy@codeforamerica.org"
+    }, 
+    {
+      "name": "Ryan Whitley",
+      "email": "apollolm@gmail.com"
     }
   ],
   "license": "BSD",
   "main": "./index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodetiles/nodetiles-core.git"
+    "url": "https://github.com/apollolm/nodetiles-core.git"
   },
   "engines": {
     "node": ">0.8.x",
