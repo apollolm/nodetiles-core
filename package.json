@@ -1,7 +1,7 @@
 {
   "name": "nodetiles-core-cache",
-  "version": "0.0.1",
-  "description": "Joyful map rendering with Node.js.",
+  "version": "0.0.2",
+  "description": "Joyful map rendering with Node.js, with disk caching.",
   "contributors": [ 
     {
       "name": "Rob Bracket",
